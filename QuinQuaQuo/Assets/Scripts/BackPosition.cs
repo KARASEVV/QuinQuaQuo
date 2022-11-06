@@ -6,6 +6,7 @@ public class BackPosition : MonoBehaviour
 {
     public bool moveBack = false;
     public GameObject Button;
+    public GameObject Button_1;
     public GameObject Planet;
     public GameObject Player;
     public GameObject Rocket;
@@ -25,6 +26,7 @@ public class BackPosition : MonoBehaviour
             if(gameObject.transform.position == backTrans.transform.position){
                 moveBack=false;
                 Button.SetActive(false);
+                Button_1.SetActive(false);
                 gameObject.transform.LookAt(Galaxy);
             }
         }

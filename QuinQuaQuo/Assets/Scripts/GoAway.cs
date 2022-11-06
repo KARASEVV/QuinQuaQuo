@@ -8,4 +8,7 @@ public class GoAway : MonoBehaviour
     void OnTriggerEnter(Collider other){
         backButton.SetActive(true);
     }
+    void OnTriggerExit(Collider other){
+        backButton.SetActive(false);
+    }
 }

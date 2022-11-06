@@ -11,6 +11,6 @@ public class ToGalaxy : MonoBehaviour
         
     }
     void OnMouseDown(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SpaceShip");
     }
 }
